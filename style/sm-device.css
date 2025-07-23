@@ -29,8 +29,11 @@
     flex-direction: column;
     margin: 28px 0 65px 0;
   }
-  .banner-img{
+  .banner-img {
     order: -1;
+  }
+  .banner-img img {
+    width: 100%;
   }
   .banner-title {
     font-size: 3rem;
@@ -38,5 +41,15 @@
   }
   .banner-details {
     font-size: 1rem;
+  }
+
+  /* plants section */
+  .plant {
+    margin: 65px 10px 40px 10px;
+  }
+  .plant-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
   }
 }

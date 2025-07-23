@@ -41,6 +41,10 @@ header {
   max-width: 1140px;
   margin: 0 auto;
 }
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 .common-span {
   color: black;
@@ -91,6 +95,68 @@ header {
 }
 
 /* Section-4    This is plant cards area  */
+
+.plant-text {
+  text-align: center;
+}
+.plant-title {
+  font-size: 3.2rem;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.plant-details {
+  font-size: 1.4rem;
+  color: var(--details-color);
+  margin-bottom: 45px;
+}
+
+/* cards area */
+.plant {
+  margin: 120px 0 200px 0;
+}
+.plant-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.plant-card {
+  height: 480px;
+  max-width: 270px;
+  text-align: center;
+}
+.plant-card img {
+  border-radius: 5px;
+  height: 320px;
+  width: 100%;
+}
+.card-text {
+  padding: 10px 0 20px 0;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-btn {
+  width: 100%;
+  background-color: #e95a08;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 20px 0 20px 0;
+  font-weight: 600;
+}
 
 /* Section-5    This is flower lover area  */
 
