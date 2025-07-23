@@ -1,0 +1,101 @@
+/* Section-1    This is common style area  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Noto+Serif&display=swap");
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+:root {
+  --primary-color: #e95a08;
+  --secondary-color: #8987a1;
+  --card-color: #11111111;
+  --details-color: rgba(0, 0, 0, 0.5);
+  --image-font-color: #ffffff;
+  --image-color: rgba(0, 0, 0, 0.4);
+  --footer-image-color: rgba(7, 51, 79, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.common-span {
+  color: black;
+}
+/* Section-2    This is the navigation area  */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.nav-list {
+  gap: 48px;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 0px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.nav-item .shop {
+  color: var(--secondary-color);
+}
+
+/* Section-3    This is the banner area  */
+
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 0;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.banner-details {
+  font-size: 1.4rem;
+  color: var(--details-color);
+}
+
+/* Section-4    This is plant cards area  */
+
+/* Section-5    This is flower lover area  */
+
+/* Section-6    This is deals area  */
+
+/* Section-7    This is join area  */
+
+/* Section-8    This is footer area  */
