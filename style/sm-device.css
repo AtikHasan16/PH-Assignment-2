@@ -52,4 +52,32 @@
     grid-template-columns: auto auto;
     gap: 20px;
   }
+
+  /* flower store */
+
+  .flower-store {
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 10px 120px 10px;
+  }
+
+  .store-img img {
+    width: 100%;
+  }
+  .store-img .badge {
+    display: none;
+  }
+
+  .store-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .store-details {
+    font-size: 1rem;
+  }
+  .store-details li {
+    margin-bottom: 16px;
+  }
 }

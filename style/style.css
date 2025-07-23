@@ -158,10 +158,38 @@ header {
   font-weight: 600;
 }
 
-/* Section-5    This is flower lover area  */
+/* Section-5    This is flower store area  */
+.flower-store {
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 120px;
+}
 
+.store-img {
+  position: relative;
+}
+.store-img .badge {
+  position: absolute;
+  width: 280px;
+  left: 350px;
+  top: -100px;
+}
 
+.store-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
+.store-details {
+  font-size: 1.4rem;
+  margin: 20px;
+  color: var(--details-color);
+}
+.store-details li {
+  margin-bottom: 20px;
+}
 
 /* Section-6    This is deals area  */
 
