@@ -124,13 +124,13 @@ header {
   align-items: center;
 }
 .plant-card {
-  height: 480px;
+  max-height: 480px;
   max-width: 270px;
   text-align: center;
 }
 .plant-card img {
   border-radius: 5px;
-  height: 320px;
+  height: 100%;
   width: 100%;
 }
 .card-text {
@@ -159,6 +159,9 @@ header {
 }
 
 /* Section-5    This is flower lover area  */
+
+
+
 
 /* Section-6    This is deals area  */
 
