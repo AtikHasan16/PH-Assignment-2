@@ -80,4 +80,39 @@
   .store-details li {
     margin-bottom: 16px;
   }
+
+  /* latest deals section */
+
+  .deals-img-container {
+    flex-direction: column;
+  }
+
+  /* letest deals right side image */
+
+  .img-container-2 {
+    position: relative;
+    height: 200px;
+  }
+
+  .img-container-2 > .gradient-2 {
+    background-color: black;
+    opacity: 40%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+  }
+
+  .img-container-2 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .img-text-2 > div > p {
+    font-size: 20px;
+  }
+  .img-text-2 > div > a {
+    font-size: 1rem;
+  }
 }

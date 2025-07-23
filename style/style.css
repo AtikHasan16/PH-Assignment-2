@@ -192,6 +192,110 @@ header {
 }
 
 /* Section-6    This is deals area  */
+.deals {
+  margin-bottom: 120px;
+}
+
+.deals-text {
+  text-align: center;
+}
+
+.deals-title {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.deals-details {
+  font-size: 1.4rem;
+  color: var(--details-color);
+  margin: 20px 0;
+}
+.deals-img-1 {
+  margin-bottom: 25px;
+}
+.deals-img-container {
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container > .gradient {
+  background-color: black;
+  opacity: 40%;
+  width: 365px;
+  height: 195px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.img-container > img {
+  width: 365px;
+  height: 195px;
+  border-radius: 20px;
+}
+
+.img-text-1 > div {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+}
+.img-text-1 > div > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.img-text-1 > div > a {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* letest deals right side image */
+
+.img-container-2 {
+  position: relative;
+}
+
+.img-container-2 > .gradient-2 {
+  background-color: black;
+  opacity: 40%;
+  width: 750px;
+  height: 420px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.img-container-2 > img {
+  width: 750px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.img-text-2 > div {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+}
+.img-text-2 > div > p {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.img-text-2 > div > a {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
 /* Section-7    This is join area  */
 
