@@ -36,11 +36,13 @@
     width: 100%;
   }
   .banner-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    margin-left: 10px;
   }
   .banner-details {
     font-size: 1rem;
+    margin-left: 10px;
   }
 
   /* plants section */
@@ -51,6 +53,13 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+  }
+
+  .plant-title {
+    font-size: 2.5rem;
+  }
+  .plant-details {
+    font-size: 1rem;
   }
 
   /* flower store */
@@ -82,7 +91,9 @@
   }
 
   /* latest deals section */
-
+  .deals-title {
+    font-size: 2.5rem;
+  }
   .deals-img-container {
     flex-direction: column;
   }
