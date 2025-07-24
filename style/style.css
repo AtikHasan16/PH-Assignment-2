@@ -175,6 +175,14 @@ header {
   left: 350px;
   top: -100px;
 }
+.badge {
+  animation: spin 10s linear 1s infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .store-title {
   font-size: 3.2rem;
@@ -266,14 +274,14 @@ header {
 .img-container-2 > .gradient-2 {
   background-color: black;
   opacity: 40%;
-  width: 750px;
+  width: 100%;
   height: 420px;
   position: absolute;
   border-radius: 20px;
 }
 
 .img-container-2 > img {
-  width: 750px;
+  width: 100%;
   height: 420px;
   border-radius: 20px;
 }
@@ -298,5 +306,49 @@ header {
 }
 
 /* Section-7    This is join area  */
+
+.join-container {
+  background-image: url("../assets/news-letter-bg.png");
+  height: 533px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.text-input {
+  padding-top: 10%;
+}
+
+.join-title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-area input {
+  width: 50%;
+  border: none;
+  padding: 15px 0 15px 20px;
+}
+
+.input-area input::placeholder {
+  color: #8987a1;
+}
+.footer-btn {
+  font-weight: 600;
+  background-color: #e95a08;
+  color: white;
+  padding: 15px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
 
 /* Section-8    This is footer area  */

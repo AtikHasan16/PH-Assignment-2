@@ -115,4 +115,23 @@
   .img-text-2 > div > a {
     font-size: 1rem;
   }
+
+  /* subscription area */
+
+  .join-container {
+    height: 275px;
+    padding: 30px;
+  }
+
+  .text-input {
+    padding-top: 10%;
+  }
+
+  .join-title {
+    font-size: 1.4rem;
+  }
+
+  .footer-btn {
+    width: 100px;
+  }
 }
