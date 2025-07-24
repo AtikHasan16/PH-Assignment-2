@@ -341,6 +341,9 @@ header {
 .input-area input::placeholder {
   color: #8987a1;
 }
+.input-area input:focus {
+  outline: none;
+}
 .footer-btn {
   font-weight: 600;
   background-color: #e95a08;
@@ -352,3 +355,31 @@ header {
 }
 
 /* Section-8    This is footer area  */
+
+.bottom-area {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  padding: 50px 150px;
+}
+
+.bottom-logo {
+  width: 300px;
+}
+
+.bottom-details {
+  color: var(--details-color);
+  font-size: 1.4rem;
+  margin-top: 16px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.icon-container img {
+  margin-right: 20px;
+}
